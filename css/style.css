@@ -4,33 +4,30 @@
     padding: 0;
     box-sizing: border-box;
     text-align: center;
-    color: whitesmoke;
+    color: rgb(255, 255, 255);
+    
 }
 body {
-    background-color: #0000008e;
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/bf/Salvador_BA.jpg");
+    background-image: url("https://a.travel-assets.com/findyours-php/viewfinder/images/res70/159000/159978-Farol-Da-Barra-Beach.jpg");
     background-repeat: no-repeat;
     height: 100%;
-    background-size: 100%;
-    
-   }
-
-header{
-    background-color: rgba(0, 0, 0, 0.639);
-    width: 100%;
-    padding: 10px;
-    
-
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-.brasao {
-    width: 50px;
-    height: 50px;
+header{
+    background-color: rgba(30, 30, 30, 0.884);
+    width: 100%;
+    padding: 5px;
+    height: 90px;
+    
+
 }
 
 h1{
-    font-family: 'Mochiy Pop P One', sans-serif;
-    font-size: 40px;
+    font-family: 'Fira Sans', sans-serif;;
+    font-size: 35px;
+    padding: 10px;
 }
 
 main{
@@ -44,38 +41,67 @@ footer{
 }
 
 
-ul{
-    font-family: 'Mochiy Pop P One', sans-serif;
-    font-size: 40px;
-}
+
 li {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 30px;
-    list-style-type: none;
-}
-footer{
     font-size: 20px;
+    list-style-type: none;
+    padding: 05px;
+}
+h2{
+    padding: 20px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 35px;
+}
+/* footer{
+    font-size: 20px;
+    
+} */
+
+.brasao {
+    width: 50px;
+    height: 50px;
+    display: inline;
+    position: relative;
+    top: 13px;
+    right: 10px;
 }
 
-.face{
-    width: 20px;
-    height: 20px;
+.capital{
+    display: inline
 }
 
-.insta{
-    width: 20px;
-    height: 20px;
-}
-.tt{
-    width: 20px;
-    height: 20px;
-}
-.yt{
-    width: 20px;
-    height: 20px;
+.salvador{
+    padding: 30px;
+
 }
 .curiosidades {
-    color: white;
-    background-color: #e6bd09;
-    padding: 12px;
+    padding-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.605);
 }
+
+/* .ascuriosidades{
+    font-size: 10px;  
+} */
+
+a{
+    text-decoration: none;
+}
+img{
+    width: 60px;
+    height: 60px;
+    padding: 50;
+    display: inline-block;
+}
+
+/* .insta{
+    width: 60px;
+    height: 60px;
+    text-decoration: none; 
+}*/
+/* .tt{
+    width: 60px;
+    height: 60px;
+    text-decoration: none;
+} */
+
